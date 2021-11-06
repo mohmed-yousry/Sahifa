@@ -75,19 +75,19 @@ for (let i = 0; i < allPicSlid.length; i++) {
   let slidintervil = setInterval(function () {
     allPicSlid[i].setAttribute(
       "src",
-     `../cursoserImg/${Math.floor(Math.random() * 10)}.jpg`
+     `/cursoserImg/${Math.floor(Math.random() * 10)}.jpg`
     );
 
     angleSlid[0].addEventListener("click", function () {
       allPicSlid[i].setAttribute(
         "src",
-        `../cursoserImg/${Math.floor(Math.random() * 10)}.jpg`
+        `/cursoserImg/${Math.floor(Math.random() * 10)}.jpg`
       );
     });
     angleSlid[1].addEventListener("click", function () {
       allPicSlid[i].setAttribute(
         "src",
-        `../cursoserImg/${Math.floor(Math.random() * 10)}.jpg`
+        `/cursoserImg/${Math.floor(Math.random() * 10)}.jpg`
       );
     });
   }, 5000);
