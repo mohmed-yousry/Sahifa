@@ -73,22 +73,13 @@ let angleSlid = Array.from(
 // console.log(angleSlid);
 for (let i = 0; i < allPicSlid.length; i++) {
   let slidintervil = setInterval(function () {
-    allPicSlid[i].setAttribute(
-      "src",
-`https://github.com/mohmedahmed9970/Sahifa/blob/main/img/cursoser/${Math.floor(Math.random() * 10)}.jpg`
-    );
+    allPicSlid[i].src = `https://github.com/mohmedahmed9970/Sahifa/blob/main/img/cursoser/6.jpg`;
 
     angleSlid[0].addEventListener("click", function () {
-      allPicSlid[i].setAttribute(
-        "src",
-`https://github.com/mohmedahmed9970/Sahifa/blob/main/img/cursoser/${Math.floor(Math.random() * 10)}.jpg`
-      );
+      allPicSlid[i].src = `https://github.com/mohmedahmed9970/Sahifa/blob/main/img/cursoser/6.jpg`
     });
     angleSlid[1].addEventListener("click", function () {
-      allPicSlid[i].setAttribute(
-        "src",
-`https://github.com/mohmedahmed9970/Sahifa/blob/main/img/cursoser/${Math.floor(Math.random() * 10)}.jpg`
-      );
+      allPicSlid[i].src = `https://github.com/mohmedahmed9970/Sahifa/blob/main/img/cursoser/6.jpg`
     });
   }, 5000);
 }
@@ -114,4 +105,3 @@ btnToTop.onclick = function () {
     behavior: "smooth",
   });
 };
-
