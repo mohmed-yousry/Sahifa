@@ -73,13 +73,13 @@ let angleSlid = Array.from(
 // console.log(angleSlid);
 for (let i = 0; i < allPicSlid.length; i++) {
   let slidintervil = setInterval(function () {
-    allPicSlid[i].src = `https://github.com/mohmedahmed9970/Sahifa/blob/main/img/cursoser/${Math.floor(Math.random() * 10)}.jpg`;
+    allPicSlid[i].src = `https://raw.githubusercontent.com/mohmedahmed9970/Sahifa/main/img/cursoser/${Math.floor(Math.random() * 10)}.jpg`;
 
     angleSlid[0].addEventListener("click", function () {
-      allPicSlid[i].src = `https://github.com/mohmedahmed9970/Sahifa/blob/main/img/cursoser/${Math.floor(Math.random() * 10)}.jpg`
+      allPicSlid[i].src = `https://raw.githubusercontent.com/mohmedahmed9970/Sahifa/main/img/cursoser/${Math.floor(Math.random() * 10)}.jpg`
     });
     angleSlid[1].addEventListener("click", function () {
-      allPicSlid[i].src = `https://github.com/mohmedahmed9970/Sahifa/blob/main/img/cursoser/${Math.floor(Math.random() * 10)}.jpg`
+      allPicSlid[i].src = `https://raw.githubusercontent.com/mohmedahmed9970/Sahifa/main/img/cursoser/${Math.floor(Math.random() * 10)}.jpg`
     });
   }, 5000);
 }
